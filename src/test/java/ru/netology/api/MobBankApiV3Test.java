@@ -38,6 +38,6 @@ public class MobBankApiV3Test {
                 .then()
                 .body("[0].name", equalTo("Текущий счёт"))
                 .body("[1].balance", equalTo(2877210))
-                .body("[2].id", equalTo(2));
+                .body("[2].id", equalTo(3));
     }
 }
